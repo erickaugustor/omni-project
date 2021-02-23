@@ -1,0 +1,29 @@
+.bar {
+  display: flex;
+  align-items: center;
+}
+
+.bar span {
+  font-size: 1rem;
+}
+
+.bar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: (--gray-light);
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.bar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background: (--green);
+}
+
+.bar > div > span {
+  position: absolute;
+  top: 12px;
+  transform: translate(-50%);
+}
