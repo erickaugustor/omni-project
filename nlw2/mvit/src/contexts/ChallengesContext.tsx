@@ -51,9 +51,9 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
   return (
     <ChallengesContext.Provider
       value={{
+        level,
         currentExperience,
         challengesCompleted,
-        level,
         levelUp,
         startNewChallenge,
         activeChallenge,
