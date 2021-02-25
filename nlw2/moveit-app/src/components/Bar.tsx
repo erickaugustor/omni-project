@@ -1,4 +1,4 @@
-import styles from '../styles/components/Bar.module.css';
+import styles from '../styles/global.module.css';
 
 export function Bar() {
   return (
