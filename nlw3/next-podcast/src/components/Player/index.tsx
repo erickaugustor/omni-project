@@ -25,23 +25,23 @@ export default function Player() {
 
         <div className={styles.buttons}>
           <button type="button">
-            <img alt="Embaralhar" />
+            <img src="/shuffle.svg" alt="Embaralhar" />
           </button>
 
           <button type="button">
-            <img alt="Tocar anterior" />
+            <img src="/play-previous.svg" alt="Tocar anterior" />
           </button>
 
           <button type="button" className={styles.playButton}>
-            <img alt="Tocar" />
+            <img src="/play.svg" alt="Tocar" />
           </button>
           
           <button type="button">
-            <img alt="Tocar próxima" />
+            <img src="/play-next.svg" alt="Tocar próxima" />
           </button>
 
           <button type="button">
-            <img alt="Repetir" />
+            <img src="/repeat.svg" alt="Repetir" />
           </button>
         </div>
       </footer>
